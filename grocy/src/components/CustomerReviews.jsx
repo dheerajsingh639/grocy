@@ -34,7 +34,7 @@ const CustomerReviews = () => {
         <h2 className="text-4xl font-semibold mb-12">
           <span className="text-orange-500">Customers </span>
           Reviews
-          <div className="w-40 h-1 bg-orange-400 mx-auto mt-2"></div>
+          <div className="w-40 h-1 bg-orange-400 mx-auto mt-1"></div>
         </h2>
 
         <div className="relative flex items-center justify-center">

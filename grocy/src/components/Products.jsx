@@ -1,6 +1,8 @@
 import { useStore } from "../context/StoreContext";
 import { FiHeart } from "react-icons/fi";
 import { useState, useEffect } from "react";
+import { AiFillHeart, AiOutlineShoppingCart } from "react-icons/ai";
+
 
 const products = [
   { id: 1, name: "Strawberry", price: 4.0, img: "/strawberry.png" },
@@ -62,15 +64,16 @@ const Products = () => {
     <>
       {/* Popup for Wishlist */}
       {showPopup && (
-        <div className="fixed top-10 right-5 bg-white text-black px-5 py-2 rounded-full shadow-md animate-bounce z-50">
-          💖 Added to Wishlist!
+        <div className=" flex gap-3 fixed top-10 right-5 bg-pink-500 text-white px-3 py-1 rounded-full shadow-md animate-bounce z-50">
+          <AiFillHeart size={30} /> Added to Wishlist!
         </div>
       )}
 
       {/* Popup for Cart */}
       {showPopup2 && (
-        <div className="fixed top-10 right-5 bg-green-500 text-white px-5 py-2 rounded-full shadow-md animate-bounce z-50">
-          🛒 Added to Cart!
+        <div className="flex gap-3 fixed top-10 right-5 bg-green-500 text-white px-3 py-1 rounded-full shadow-md animate-bounce z-50">
+          <AiOutlineShoppingCart size={30} />
+          Added to Cart!
         </div>
       )}
 
@@ -79,7 +82,7 @@ const Products = () => {
           <span className="text-orange-500">All</span>{" "}
           <span className="text-black">Products</span>
         </h2>
-        <div className="w-45 h-1 mt-3 bg-orange-400 mx-auto mb-10 rounded-full"></div>
+        <div className="w-45 h-1 mt-1 bg-orange-400 mx-auto mb-10 rounded-full"></div>
 
         {/* Product Cards */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-y-10 gap-x-5 px-3 py-10 md:gap-10 md:px-6">

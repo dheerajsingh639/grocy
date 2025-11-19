@@ -21,7 +21,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-orange-600 mt-2 px-6 py-4 flex justify-between items-center relative">
+    <nav className="bg-orange-600 px-6 py-4 flex justify-between items-center relative">
       {/* Logo */}
       <div
         className="text-4xl font-bold cursor-pointer"

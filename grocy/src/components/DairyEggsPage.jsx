@@ -1,6 +1,7 @@
 import { useStore } from "../context/StoreContext";
 import { FiHeart } from "react-icons/fi";
 import { useState, useEffect } from "react";
+import { AiFillHeart, AiOutlineShoppingCart } from "react-icons/ai";
 
 const products = [
   { id: 1, name: "Butter", price: 3.0, img: "/butter.png" },
@@ -48,15 +49,16 @@ const DairyEggsPage = () => {
     <>
       {/* Popup for Wishlist */}
       {showPopup && (
-        <div className="fixed top-10 right-5 bg-white text-black px-5 py-2 rounded-full shadow-md animate-bounce z-50">
-          💖 Added to Wishlist!
+        <div className=" flex gap-3 fixed top-10 right-5 bg-pink-500 text-white px-3 py-1 rounded-full shadow-md animate-bounce z-50">
+          <AiFillHeart size={30} /> Added to Wishlist!
         </div>
       )}
 
       {/* Popup for Cart */}
       {showPopup2 && (
-        <div className="fixed top-10 right-5 bg-green-500 text-white px-5 py-2 rounded-full shadow-md animate-bounce z-50">
-          🛒 Added to Cart!
+        <div className="flex gap-3 fixed top-10 right-5 bg-green-500 text-white px-3 py-1 rounded-full shadow-md animate-bounce z-50">
+          <AiOutlineShoppingCart size={30} />
+          Added to Cart!
         </div>
       )}
 

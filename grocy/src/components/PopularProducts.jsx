@@ -69,7 +69,7 @@ const PopularProducts = () => {
           <span className="text-orange-500">Popular</span>{" "}
           <span className="text-black">Products</span>
         </h2>
-        <div className="w-45 h-1 mt-3 bg-orange-400 mx-auto mb-10 rounded-full"></div>
+        <div className="w-45 h-1 mt-2 bg-orange-400 mx-auto mb-10 rounded-full"></div>
 
         {/* Product Cards */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-y-10 gap-x-5 px-3 py-10 md:gap-10 md:px-6">

@@ -36,7 +36,7 @@ const CategorySection = () => {
         <h2 className="text-4xl font-bold mb-2">
           <span className="text-orange-500">Shop</span> by Category
         </h2>
-        <div className="w-40 h-1 mt-3 bg-orange-400 mx-auto mb-10 rounded-full"></div>
+        <div className="w-40 h-1 mt-1 bg-orange-400 mx-auto mb-10 rounded-full"></div>
 
         <div className="grid gap-8 md:grid-cols-3">
           {categories.map((cat, index) => (

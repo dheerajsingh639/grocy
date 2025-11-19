@@ -36,7 +36,7 @@ const OurProcess = () => {
           <span className="text-orange-500 font-bold">Our </span>
           Process
         </h2>
-        <div className="w-35 h-1 mt-2 bg-orange-400 mx-auto mb-10 rounded-full"></div>
+        <div className="w-35 h-1 mt-1 bg-orange-400 mx-auto mb-10 rounded-full"></div>
 
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-15">
           {steps.map((step) => (

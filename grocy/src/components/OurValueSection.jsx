@@ -37,7 +37,7 @@ const OurValueSection = () => {
         <span className="text-orange-500">Our</span>{" "}
         <span className="text-black">Value</span>
       </h2>
-      <div className="w-40 h-1 mt-3 bg-orange-400 mx-auto mb-10 rounded-full"></div>
+      <div className="w-40 h-1 mt-1 bg-orange-400 mx-auto mb-10 rounded-full"></div>
 
       <div className="relative mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-12 items-center justify-items-center px-4">
         {/* Top Left */}

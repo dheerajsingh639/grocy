@@ -52,7 +52,7 @@
 ---
 
 ## 📱 About Shopping App
-This **Flutter-based shopping app** — **Theulluu.com** — offers users a seamless and engaging mobile shopping experience.  
+This **React Base Website** — **Grocery** — offers users a seamless and engaging mobile shopping experience.  
 
 ✨ Features:  
 - Registration & Login with Firebase  
@@ -68,15 +68,14 @@ This **Flutter-based shopping app** — **Theulluu.com** — offers users a seam
 
 ---
 
-<h3> 📲 Get it on Play Store </h3>
+<h3> ⚛️ Built with React </h3>
 
 <p align="center">
   <a href="https://grocery00x.netlify.app/" target="_blank" rel="noopener noreferrer">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" 
-         alt="Get it on Google Play" width="200"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" 
+         alt="React Logo" width="120"/>
   </a>
 </p>
-
 
 ---
 <h3> 🤝🏻 Connect with Me </h3>

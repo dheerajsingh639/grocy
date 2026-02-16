@@ -1,4 +1,4 @@
-# 🛒 Shopping-App — Theulluu.com
+# 🛒 Grocery web
 
 <h2> Hey there! I'm Dheeraj <img src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/Hi.gif" width="25"></h2>
 
@@ -62,13 +62,16 @@ This **Flutter-based shopping app** — **Theulluu.com** — offers users a seam
 - User-friendly design with smooth UI  
 
 ---
+![IMG-20260216-WA0012](https://github.com/user-attachments/assets/d787e677-bc4b-4c1b-bec8-b381dee9d2e0)
+![IMG-20260216-WA0013](https://github.com/user-attachments/assets/f4fab73f-fa00-4350-91b4-0f8169bb0f87)
+![IMG-20260216-WA0011](https://github.com/user-attachments/assets/bf3ebb34-76af-4a99-9f7e-207e7ca8f274)
 
 ---
 
 <h3> 📲 Get it on Play Store </h3>
 
 <p align="center">
-  <a href="https://play.google.com/store/apps/details?id=com.theulluu.theulluu&pli=1" target="_blank" rel="noopener noreferrer">
+  <a href="https://grocery00x.netlify.app/" target="_blank" rel="noopener noreferrer">
     <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" 
          alt="Get it on Google Play" width="200"/>
   </a>
@@ -76,7 +79,6 @@ This **Flutter-based shopping app** — **Theulluu.com** — offers users a seam
 
 
 ---
-
 <h3> 🤝🏻 Connect with Me </h3>
 
 <p align="Row">
